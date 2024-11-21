@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Form</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Adopt a Pet</h1>
+    <form action="/confirm" method="post">
+        <label for="pet_type">Pet Type:</label>
+        <input type="text" id="pet_type" name="pet_type"><br>
+        <label>Quantity: <input type="text" id="quantity" name="quantity"></label>
+        <label>Color: <input type="text" id="color" name="color"></label>
+        <button id="click">Submit Order</button>
+        <p id="output"></p>
+    </form>
+</body>
+
+</html>
